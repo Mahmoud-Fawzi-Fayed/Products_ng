@@ -1,0 +1,12 @@
+<div class="container">
+    <h2>{{ productDetails.title }}</h2>
+    <div class="product-details">
+      <img [src]="productDetails.thumbnail" alt="{{ productDetails.title }}" />
+      <p>disc: {{ productDetails.description }}</p>
+      <p>Price: {{ productDetails.price }}$</p>
+      <p>Discount: {{ productDetails.discountPercentage }}%</p>
+      <p>Rating: {{ productDetails.rating }}/5</p>
+      <p>Stock: {{ productDetails.stock }}</p>
+    </div>
+  </div>
+  
